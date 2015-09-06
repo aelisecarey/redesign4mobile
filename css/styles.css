@@ -1,0 +1,404 @@
+/* Universal Styles */
+html {
+	font-size: 16px;
+	line-height:28px; 
+}
+
+body {
+	font-family:'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 400;
+	color: rgb(68, 68, 68);
+}
+
+h1 {
+	font: 400 1.8em/1.5em 'Arvo', Georgia, 'Times New Roman', Times, serif;
+	color: rgb(221, 72, 64);
+	padding-bottom:.6em;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height:1.8em;
+	font-weight: 600;
+	color: rgb(21, 145, 143);
+}
+
+h3 {
+	font: 1.1em/1.6em 'Arvo', Georgia, 'Times New Roman', Times, serif;
+	color: rgb(68, 68, 68);
+	padding-bottom:2em;
+}
+
+h4 {
+	text-align:center;
+	font-weight:600;
+	text-transform: uppercase;
+	color: rgb(239, 239, 239);
+}
+
+p {
+	padding-bottom: 1.3em;
+}
+
+p i, p em {
+	font-style: italic;
+}
+
+b, strong {
+	font-weight: 700;
+}
+
+figure {
+	padding:1em;
+	margin-bottom: 2em;
+	background: rgb(231, 231, 231);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+figure h3 {
+	text-align:center;
+}
+
+article ul {
+	list-style: square inside none;
+	padding-bottom:1.3em;
+}
+
+img { 
+	margin:0 auto;
+	padding-bottom:1em;
+	display: block;
+	width: 100%;
+}
+
+a:link {
+	color: rgb(21, 145, 143);
+	font-weight: 600;
+	text-decoration: none;
+	border-bottom: 2px solid rgb(21, 145, 143);
+}
+
+a:visited {
+	color: rgb(85, 40, 132);
+	font-weight: 600;
+	text-decoration: none;
+	border-bottom: 2px solid rgb(85, 40, 132);
+}
+
+a.button {
+	margin:0 auto 1em;
+	color: rgb(255, 255, 255) !important;
+	background-color: rgb(85, 40, 132);
+	padding: .8em 2em;
+	border-bottom: none;
+	border-radius: .3em;
+	-moz-border-radius: .3em;
+	-webkit-border-radius: .3em;
+	text-align: center;
+}
+
+.links {
+	font-size:14px;
+	margin:0 auto;
+}
+
+.links a {
+	width: 10em;
+	display: block;
+	text-align: center;
+}
+
+.col-2-1-m {
+	width: 48%;
+	float: left;
+}
+
+.col-last-m {
+	float: right;
+}
+
+.clearfix {
+	display: table;
+	clear: both;
+}
+
+#wrapper {
+	position: relative;
+}
+
+/* Specific Section Styles */
+
+section {
+	max-width: 1000px;
+	padding: 4em 1.5em 0;
+	margin:0 auto;
+}
+
+/* #chapter_list */
+
+#chapter_list  {
+	width: auto;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:100;
+	background-color: rgba(0, 184, 188, 1);
+	padding:.5em;
+}
+
+#chapter_list nav {
+	position: absolute;
+	transform: translateY(130%);
+	transition: transform .5s;
+}
+
+#chapter_list nav.active {
+	position:relative;
+	transform: translateY(0%);
+}
+
+#chapter_list li {
+	padding: .5em;
+	border-bottom: 2px solid rgb(239, 239, 239);
+	text-align:center;
+}
+
+#chapter_list li:last-child {
+	border-bottom: none;
+}
+
+#chapter_list a {
+	color: rgb(239, 239, 239);
+	text-decoration:none;
+	border: none;
+}
+
+/* #container */
+
+/* #title_section */
+
+#title_section {
+	padding: 4em 0;
+	background: url(../images/holding_mobile.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#title_section h1, #title_section h2 {
+	text-align:center;
+}
+
+.title_block {
+	padding: 2em;
+	background-color: rgba(193, 225, 226, 0.8);
+}
+
+/* #introduction */
+
+
+#introduction img {
+	max-width: 500px !important;
+}
+
+/* Charts & Graphs Styles */
+
+.legend {
+	width:75%;
+	margin:0 auto;
+	padding:10px;
+}
+
+.legend .title {
+    display: block;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+    padding: 0 0.3em;
+}
+
+.legend .color-sample {
+    display: block;
+    float: left;
+    width: 1em;
+    height: 1em;
+    border: 2px solid; 
+    border-radius: 0.8em;
+    margin-right: 0.5em;
+}
+
+.legend li {
+	padding-bottom:.5em;
+}
+
+/* .pullquote */
+
+blockquote {
+	font-size:20px;
+	padding: 2.5em;
+	background-color: rgba(245, 185, 98, 0.8);
+	color: rgb(255, 255, 255);
+}
+
+blockquote h3 {
+	text-align:center;
+	color: rgb(255, 255, 255);
+}
+
+blockquote p {
+	text-align: right;
+
+}
+
+/* #strategy */
+
+#strategy h2 {
+	padding:1.5em;
+	text-align: center;
+}
+
+#strategy h3 {
+	max-width: 40rem;
+	margin: 0 auto;
+	padding: 0 0 1em;
+}
+
+#strategy figure p {
+	max-width: 30rem;
+	padding: .5em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* #pre-responsive */
+
+#pre-responsive img {
+	max-width:800px;
+}
+
+/* #responsive */
+
+#responsive img {
+	max-width: 650px;
+}
+
+/* #about */
+
+#about h1 {
+	text-align: center;
+}
+
+.Contact_EC h1, .Contact_RM h1 {	
+	text-align: center;
+}
+
+.ec_img {
+	max-width: 300px;
+}
+
+.rm_logo {
+	max-width: 150px;
+}
+
+
+
+/* Styles for ( max-width : 480px / 16 ) */
+
+@media ( min-width : 30em ) {
+
+	html {
+		font-size:17px;
+	}
+
+	/* #title_section */
+
+	#title_section {
+		padding: 6em 0;
+	}
+
+}
+
+/* Styles for ( max-width : 600px / 16 ) */
+
+@media ( min-width : 37.5em ) {
+
+	/* #introduction */
+
+	#introduction aside { 
+		flex: 1 auto; 
+	}
+
+	blockquote {
+		font-size:22px;
+		padding: 1.5em 4em;
+	}
+
+}
+
+
+/* Styles for ( min-width : 768px / 16 )  */
+@media ( min-width : 48em ) {
+
+	html {
+		font-size: 18px;
+	}
+
+	/* #title_section */
+
+	#title_section {
+		padding: 8em 0;
+	}
+}
+
+/* Styles for ( min-width : 850px / 16 )  */
+@media ( min-width : 53.25em ) {
+
+	h4 {
+		color: rgb(68, 68, 68);
+		margin-bottom: 2em;
+	}
+
+	.col-2-1 {
+		width: 48%;
+		float: left;
+	}
+
+	.col-last {
+		float: right;
+	}
+
+		/* #chapter_list */
+
+	#chapter_list  {
+		width:220px;
+		top:0;
+		left:auto;
+	}
+
+	#chapter_list nav {
+		position:relative;
+		transform: translateY(0%);
+		transition: none;
+	}
+
+	/* #container */
+
+	#container {
+		padding-right: 238px;
+	}
+
+}
+
+/* Styles for ( min-width : 1000px / 16 )  */
+@media ( min-width : 62.5em ) {
+
+	/* #introduction */
+
+	#introduction article {
+		flex: 2 0;
+	}
+
+}

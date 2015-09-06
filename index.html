@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title="Responsive Email Design" />
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<!-- Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Arvo:400,400italic' rel='stylesheet' type='text/css'>
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/image_reveal.css" type="text/css" media="screen" />
+
+
+	</head>
+
+	<body>
+
+		<!-- Start Page #Wrapper -->
+		<div id="wrapper">
+
+		<!-- Start Chapters Navigation -->
+		<div id="chapter_list">
+
+			<h4 id="chapter_title">Chapters +</h4>
+
+			<!-- Start Navigation -->
+			<nav>
+				<ul>
+
+					<li class="chapter">
+						<a href="#introduction">Introduction</a>
+					</li>
+
+					<li class="chapter">
+						<a href="#audience">Understanding Your Audience</a>
+					</li>
+
+					<li class="chapter">
+						<a href="#strategy">Mobile Strategy</a>
+					</li>
+
+					<li class="chapter">
+						<a href="#responsive">Responsive Design</a>
+					</li>
+
+					<li class="chapter">
+						<a href="#conclusion">Final Takeaway</a>
+					</li>
+
+				</ul>
+			</nav>
+			<!-- End Navigation -->
+
+		</div>
+		<!-- End Chapters Navigation -->
+
+
+		<!-- Start div .container -->
+		<div id="container">
+
+		<!-- Start Main Content -->
+
+			<!-- Start Title_Section -->
+			<div id="title_section">
+
+				<div class="title_block">
+
+					<h1>REDESIGNING FOR MOBILE</h1>
+					<h2>What Email Marketers Need to Know</h2>
+
+				</div>
+
+			</div>
+			<!-- End Title_Section -->
+
+
+			<!-- Start Section: Introduction -->
+			<section id="introduction"> 
+
+
+				<!-- Start Introduction Text -->
+				<article >
+
+
+				<!-- Insert Displaying content flow across devices -->
+
+					<h3><strong>A threshold has been crossed, and it&rsquo;s a significant one for email marketers: more emails are opened on mobile devices than on desktop computers.</strong></h3>
+
+					<p>You read that correctly &mdash; MOST emails are read on mobile devices, not computers.</p>
+
+					<p>The staggering popularity of mobile devices for email viewing, and the dramatic differences in how a given email might look when opened on a computer vs. on an Android phone vs. on an iPhone, makes email design more important to the overall success of email marketing campaigns than at any point in recent memory.</p>
+
+					<figure class="banner">
+
+						<img src="images/data_bubbles.png" alt="Stats for US ownership of cell phones: 90%, smart phones: 32% and tablets:  42%"/>
+
+						<figcaption> 
+							<p>In the United States, 90% of adults own a cellular phone, 42% own a smart phone, and 32% own a tablet or large-screened mobile device. A growing number of individuals are considered "smartphone-dependent", meaning that they rely solely on smartphones to access the internet.</p>
+
+							<p><strong>Source:</strong> Pew Research Center for Internet, Science &amp; Technology</p>
+
+						</figcaption>
+
+					</figure>
+
+					<p>As email marketers, we all have to understand what our messages look like, how easy they are to read, and how easy it will be for recipients using different devices to accept our calls to action, download our white papers, register for our webinars, etc.</p>
+
+					<p>This primer provides an overview of how your messages can be optimized for mobile devices. The first part discusses a &ldquo;Mobile-Aware&rdquo; approach for organizations with basic web design resources. The second part explores Responsive Design, a more advanced approach to mobile optimization that requires more advanced skills.</p>
+
+				</article>
+				<!-- End Introduction Text -->
+
+
+				<!-- Start Introduction Graphs & Images -->
+				<aside class="col-2-1">
+
+					<!-- Insert Graph for desktop/mobile/webmail client market share -->
+					<figure>
+
+						<div class="canvas-holder">
+							<canvas id="osDoughnutChart" />
+						</div>
+
+						<div id="osDoughnutLegend" class="legend"></div>
+
+						<div class="clearfix"></div>
+
+						<figcaption>
+
+							<p>Email client usage at Real Magnet, collected from 67 million unique email opens in the month of June. Our top email client is Outlook, followed closely by the native iPhone email app.</p>
+
+							<p><strong>Source:</strong> Real Magnet Analytics</p>
+
+						</figcaption>
+
+					</figure>
+				</aside>
+
+				<aside class="col-2-1 col-last">
+					
+					<!-- Insert Graph for most popular email clients -->
+					<figure>
+
+						<div class="canvas-line-holder">
+							<canvas id="lineChart" />
+						</div>
+
+						<div id="lineLegend" class="legend"></div>
+
+						<div class="clearfix"></div>
+
+						<figcaption>
+
+							<p>The percentage of emails opened on a Mobile device crossed the 50% threshold in late 2013. As of August 2014, 51% of emails are opened on a Mobile device.</p> 
+
+							<p><strong>Source:</strong> Litmus &ndash; &ldquo;Email Analytics&rdquo; (September 2012 &ndash; Jan 2015)</p>
+
+						</figcaption>
+
+					</figure>
+					
+				</aside>
+				<!-- End Introduction Graphs & Images -->
+
+				<div class="clearfix"></div>
+
+			</section>
+			<!-- End Section: Introduction -->
+
+			<blockquote>				
+
+				<h3><i class="fa fa-quote-left fa-2x pull-left"></i>Mobile email will account for 15 &ndash; 70% of your email opens, depending on your target audience, product and email type.<i class="fa fa-quote-right fa-2x pull-right"></i>
+				</h3>
+				
+
+				<br /><br />
+
+				<p>EmailMonday, Ultimate Mobile Email Stats (2014)</p>
+
+			</blockquote>
+
+
+			<!-- Start Section: Understanding Your Audience -->
+			<section id="audience">
+
+				<h1>First Step: Understand Your Audience&rsquo;s Mobile Usage</h1>
+
+				<!-- Start Article: Understanding Your Audience's Mobile Usage -->
+				<article class="col-2-1">
+					
+					<p>Understanding YOUR recipients&rsquo; mobile behavior is a vital first step in tailoring content to optimize their mobile experiences. More precisely:</p>
+
+
+					<p>Many Email Service Providers (such as Real Magnet) offer behavioral tracking functionality that helps marketers better understand how their messages are being consumed. These are some of the important data points to consider:</p>
+
+					<ul>
+
+						<li>Open Percentages &ndash; Mobile vs. PC</li>
+						<li>Opens by Device Type</li>
+						<li>Opens by Email Application</li>
+						<li>Opens &ndash; PC vs. Mobile by Day of Week</li>
+						<li>Opens &ndash; PC vs. Mobile by Time of Day</li>
+
+					</ul>
+
+					<p>This type of data allows you to answer important questions like how many recipients are viewing my messages on a mobile device? How many on a PC? What type of Mobile devices are they using and which are the most popular ones? How prominent are Outlook users? Non-Outlook users? Etc.</p>
+
+					<p>With these questions answered, you can now focus on deciding how much influence mobile should have on your design strategy.</p>
+
+				</article>
+				<!-- End Article: Understanding Your Audience's Mobile Usage -->
+
+				<aside class="col-2-1 col-last">
+
+					<!-- Insert Graph for mobile/web views -->
+					<figure>
+
+						<h3 class="col-2-1-m">Desktop</h3>
+						<h3 class="col-2-1-m col-last-m">Mobile</h3>
+
+						<div class="canvas-holder">
+							<canvas id="mdDoughnutChart" />
+						</div>
+
+						<div id="mdDoughnutLegend" class="legend"></div>
+
+						<div class="clearfix"></div>
+
+						<figcaption>
+
+							<p>Desktop vs. Mobile email client usage at Real Magnet, collected from 67 million unique email opens in the month of June. At 36% we're seeing a significant ammount of mobile users.</p>
+
+							<p><strong>Source:</strong> Real Magnet Analytics</p>
+
+						</figcaption>
+
+					</figure>
+
+				</aside>
+
+				<div class="clearfix"></div>
+
+
+				<!-- Start Article: Device Variance + Screen Resolution -->
+				<article>
+				
+					<h2>The Mobile Challenge: One Message, Many Devices</h2>
+
+					<p>Mobile design wouldn&rsquo;t be such a big deal but for one intractable fact: your messages render differently on different mobile devices and email clients. The examples below show the same email message as seen on the native email clients of four different devices.</p>
+
+					<!-- Insert device images -->
+					<figure>
+
+						<img src="images/html_email_rendered.jpg" alt="A two column email displayed on a Samsung Galaxy S4 shows just the top-uppermost corner of the email; on the Apple iPhone 6 the message scales to fit and looks as if someone has zoomed out; on the HTC - One a similar display to the iPhone occurs; the Blackberry Q10 focuses in on the left-column."/>
+
+						<figcaption>
+
+							<p><strong>Source:</strong> Real Magnet Deliverability Testing</p>
+
+						</figcaption>
+
+					</figure>
+		￼
+
+					<h2>Screen size and Resolution</h2>
+
+					<p>Looking back to our stats on mobile opens… we learned that iPhone is a popular mobile device, so why not design just for the iPhone screen? or at the very least the most popular devices? Focusing only on a few devices, risks losing touch with your audience and to increase engagement, you really want to make sure you’re providing a good experience to as many as possible.</p>
+
+					<p>Glancing at the chart below, we can easily identify which screen sizes hold the most weight in the mobile market…
+3.5 inches and 7 inches! Not so fast... in addition to screen size in inches, we also have to consider resolution and viewport size! The vast variety of screen widths, pixels per inch on these screens forces us build documents for the web in the most flexible way possible.
+
+
+
+
+					<!-- Insert screen size graphic -->
+					<figure>
+
+						<img src="images/active_users.png" alt="Graph showing screen size based on market popularity: 2% are using small phones (< 3.5 inhces); 59% are using medium phones (3.5 - 5 inches), 20% are using phablets (5 - 7 inches), 7% are using small tablets (7 - 8.5 inches) and 12% are using tablets (8.5 inches +) "/>
+
+						<figcaption>
+
+							<p><strong>Source:</strong> Flurry Analytics</p>
+
+						</figcaption>
+					</figure>
+
+					<p>So how, then, do we go about optimizing our emails for Mobile? How do we improve the recipient&rsquo;s experience?</p>
+
+				</article>
+				<!-- End Article: Device Variance + Screen Resolution -->
+
+			</section>
+			<!-- Start Section: Understanding Your Audience -->
+
+			<!-- Start Section: Mobile Strategy -->
+			<section id="strategy">
+
+				<!-- Start Article: Mobile-Aware -->
+				<article>
+
+					<h1>Start with a Mobile-Aware Strategy</h1>
+
+					<p>Use of a few key Mobile-Aware tactics can help you design messages that will improve the experience for the vast majority of your mobile recipients.</p>
+
+					<p>In this section, we will walk you through seven different Mobile-Aware design concepts – each illustrated with examples of both the recommended design concept and the less-desirable alternative.</p>
+
+				</article>
+				<!-- End Article: Mobile-Aware -->
+
+
+				<!-- Insert Examples! -->
+
+
+					<!-- Start Example: Single Column -->
+
+					<h2 class="heading">Use a One Column Layout</h2>
+					<h3>In email design, multiple columns translate to fixed-widths. Make your messages flexible by starting with a single-column design. </h3>
+
+					<figure class="example">
+
+						<!-- Start Explanation: Do This! -->
+						<div class="explanation-y">
+
+							<span class="fa-stack fa-lg">
+							  	<i class="fa fa-circle fa-stack-2x do"></i>
+							  	<i class="fa fa-check fa-stack-1x"></i>
+							</span>
+							<p>The purpose of this minimalist design is easy to understand even at a super small size. 	
+							</p>
+
+						</div>
+						<!-- End Explanation: Do This! -->
+
+						<!-- Start Explanation: Don't Do This! -->
+						<div class="explanation-n">
+
+							<span class="fa-stack fa-lg">
+							  	<i class="fa fa-circle fa-stack-2x dont"></i>
+							  	<i class="fa fa-times fa-stack-1x"></i>
+							</span>
+
+							<p>The two column layout in this message makes the text appear tiny and hard to read.</p>
+
+						</div>
+						<!-- End Explanation: Don't Do This! -->
+						
+						
+						<!-- Start Graphic Visual -->
+						<div class="mobile-graphic">
+
+							<div id="container1" class="twentytwenty-container">
+
+								<!-- The before image is first -->
+								<img src="images/mobile-aware/bad-column.png" />
+								<!-- The after image is last -->
+								<img src="images/mobile-aware/good-column.png" />
+
+							</div>
+						</div>
+						<!-- End Graphic Visual -->
+
+					</figure>
+					<!-- End Example: Single Column -->
+
+
+					<!-- Start Example: Contrast -->
+
+					<h2 class="heading">Design with Contrast</h2>
+					<h3>Subtle color distictions can be hard to see in different environments or on devices with low screen resolution. </h3>
+
+					<figure class="example">
+
+						<!-- Start Explanation: Do This! -->
+						<div class="explanation-y">
+
+							<span class="fa-stack fa-lg">
+							  	<i class="fa fa-circle fa-stack-2x do"></i>
+							  	<i class="fa fa-check fa-stack-1x"></i>
+							</span>
+							<p>Traditional black text on a white background provides the perfect contrast on any screen type. The red button in this example, helps draw the viewer's eye to the call to action. 	
+							</p>
+
+						</div>
+						<!-- End Explanation: Do This! -->
+
+						<!-- Start Explanation: Don't Do This! -->
+						<div class="explanation-n">
+
+							<span class="fa-stack fa-lg">
+							  	<i class="fa fa-circle fa-stack-2x dont"></i>
+							  	<i class="fa fa-times fa-stack-1x"></i>
+							</span>
+
+							<p>Keep in mind that your recipients may be checking mail at a sunny baseball game or while standing in line at a dark coffee shop.</p>
+
+						</div>
+						<!-- End Explanation: Don't Do This! -->
+						
+						
+						<!-- Start Graphic Visual -->
+						<div class="mobile-graphic">
+
+							<div id="container1" class="twentytwenty-container">
+
+								<!-- The before image is first -->
+								<img src="images/mobile-aware/low-contrast.png" />
+								<!-- The after image is last -->
+								<img src="images/mobile-aware/high-contrast.png" />
+
+							</div>
+						</div>
+						<!-- End Graphic Visual -->
+
+					</figure>
+					<!-- End Example: Design with Contrast -->
+
+
+					<!-- Start Example: Stylized Text -->
+
+					<h2>Use Stylized Text Rather Than Images</h2>
+					<h3>Including text in images is an easy way to overcome some common email design challenges.</h3>
+
+					<figure class="example">
+
+						<!-- Start Explanation: Do This! -->
+						<div class="explanation-y">
+
+							<span class="fa-stack fa-lg">
+							  	<i class="fa fa-circle fa-stack-2x do"></i>
+							  	<i class="fa fa-check fa-stack-1x"></i>
+							</span>
+							<p>	Text is naturally responsive in HTML and will ensure that your message comes across fully.
+							</p>
+
+						</div>
+						<!-- End Explanation: Do This! -->
+
+						<!-- Start Explanation: Don't Do This! -->
+						<div class="explanation-n">
+
+							<span class="fa-stack fa-lg">
+							  	<i class="fa fa-circle fa-stack-2x dont"></i>
+							  	<i class="fa fa-times fa-stack-1x"></i>
+							</span>
+
+							<p>Images designed for desktop-sized screens risk can appear clipped on mobile devices.   </p>
+
+						</div>
+						<!-- End Explanation: Don't Do This! -->
+						
+						
+						<!-- Start Graphic Visual -->
+						<div class="mobile-graphic">
+
+							<div id="container1" class="twentytwenty-container">
+
+								<!-- The before image is first -->
+								<img src="images/mobile-aware/bad-text.png" />
+								<!-- The after image is last -->
+								<img src="images/mobile-aware/good-text.png" />
+
+							</div>
+						</div>
+						<!-- End Graphic Visual -->
+
+					</figure>
+					<!-- End Example: Stylized Text -->
+				
+					<!-- Start Example: Buttons -->
+
+					<h2 class="heading">Use Buttons for Links</h2>
+
+					<figure class="example">
+
+						<!-- Start Explanation: Do This! -->
+						<div class="explanation-y">
+
+							<span class="fa-stack fa-lg">
+							  	<i class="fa fa-circle fa-stack-2x do"></i>
+							  	<i class="fa fa-check fa-stack-1x"></i>
+							</span>
+							<p>Including your links inside of buttons rovides easily&ndash;tappable calls to action. 	
+							</p>
+
+						</div>
+						<!-- End Explanation: Do This! -->
+
+						<!-- Start Explanation: Don't Do This! -->
+						<div class="explanation-n">
+
+							<span class="fa-stack fa-lg">
+							  	<i class="fa fa-circle fa-stack-2x dont"></i>
+							  	<i class="fa fa-times fa-stack-1x"></i>
+							</span>
+
+							<p>Keep in mind that your recipients may be checking mail at a sunny baseball game or while standing in line at a dark coffee shop.</p>
+
+						</div>
+						<!-- End Explanation: Don't Do This! -->
+						
+						
+						<!-- Start Graphic Visual -->
+						<div class="mobile-graphic">
+
+							<div id="container1" class="twentytwenty-container">
+
+								<!-- The before image is first -->
+								<img src="images/mobile-aware/no-buttons.png" />
+								<!-- The after image is last -->
+								<img src="images/mobile-aware/good-button.png" />
+
+							</div>
+						</div>
+						<!-- End Graphic Visual -->
+
+					</figure>
+					<!-- End Example: Buttons -->
+
+					<!-- Start Example: Background Colors -->
+
+					<h2 class="heading">Use Background Colors</h2>
+
+					<figure class="example">
+
+						<!-- Start Explanation: Do This! -->
+						<div class="explanation-y">
+
+							<span class="fa-stack fa-lg">
+							  	<i class="fa fa-circle fa-stack-2x do"></i>
+							  	<i class="fa fa-check fa-stack-1x"></i>
+							</span>
+							<p>Use of background colors provides distinction between content segments and allows the recipient to easily scan your content.	
+							</p>
+
+						</div>
+						<!-- End Explanation: Do This! -->
+
+						<!-- Start Explanation: Don't Do This! -->
+						<div class="explanation-n">
+
+							<span class="fa-stack fa-lg">
+							  	<i class="fa fa-circle fa-stack-2x dont"></i>
+							  	<i class="fa fa-times fa-stack-1x"></i>
+							</span>
+
+							<p>Keep in mind that your recipients may be checking mail at a sunny baseball game or while standing in line at a dark coffee shop.</p>
+
+						</div>
+						<!-- End Explanation: Don't Do This! -->
+						
+						
+						<!-- Start Graphic Visual -->
+						<div class="mobile-graphic">
+
+							<div id="container1" class="twentytwenty-container">
+
+								<!-- The before image is first -->
+								<img src="images/mobile-aware/no-bg.png" />
+								<!-- The after image is last -->
+								<img src="images/mobile-aware/good-bg.png" />
+
+							</div>
+						</div>
+						<!-- End Graphic Visual -->
+
+					</figure>
+					<!-- End Example: Background Colors -->
+
+
+				<!-- Start Article: Mobile Aware Conclusion -->	
+				<article>
+
+					<p>The Mobile&ndash;Aware approach can be accomplished with an internal or external team that possesses basic design skills.</p>
+
+					<p>You have likely, however, heard of another option that many marketers are using to optimize their messages.</p>
+
+					<p>This option, Responsive Design, expands upon the basic principles of Mobile&ndash;Aware design and requires resources that have a strong understanding of CSS and HTML code.</p>
+
+				</article>
+				<!-- Start Article: Mobile Aware Conclusion -->
+
+			</section>
+			<!-- End Section: Mobile Strategy -->
+
+			<!-- Start Section: pre-Responsive Design -->
+
+			<section id="pre-responsive">
+
+				<figure>
+
+							<img class="device-flow" src="images/deviceflow-01.png" alt="Graphic of an email message displaying on a desktop screen, tablet screen and mobile screen. Content should remain the same but change layout depending on screen width." />
+				</figure>
+
+			</section>
+
+			<!-- End Section: Pre-Responsive Design -->
+
+
+			<!-- Start Section: Responsive Design -->
+			<section id="responsive">
+
+				<!-- Start Article: Using Responsive Design -->
+				<article>
+
+					<h1>Using Responsive Design</h1>
+
+					<p>The Responsive Design concept originated in 2010 and was intended for, and limited to, websites (not email). Today, it is used to make both websites and emails more visually appealing on PCs, Tablets, and Mobile devices.</p>
+
+					<p>Essentially, Responsive Design relates to the use of flexible and fluid layouts that adapt to the screen on which the content is being viewed. So if a message is opened on a PC, the content is optimized for that PC. If the same message is viewed on a mobile device, it will be optimized for mobile. The idea is one message, many renderings.</p>
+
+					<h2>What is possible with Responsive Design?</h2>
+
+					<p>Responsive Design&rsquo;s power is demonstrated in the examples that follow. We show you a variety of ways in which it can alter how the content of a given message is rendered. We provide examples of how the same content can appear on a large (computer) and a small (Mobile device) screen.<p>
+
+				</article>
+				<!-- End Article: Using Responsive Design -->
+
+
+					<!-- Start Pattern 1: Scale -->
+					<div class="pattern">
+
+							<!-- Insert pattern images -->
+							<figure>
+
+								<h3>Scale:</h3> 
+
+									<p>On Mobile devices the content of the message will scale to the screen size. This means that images and text will be easily read on smaller screens without requiring the recipient to zoom or scroll horizontally.</p>
+
+								<img src="images/responsive_patterns/scale.jpg" />
+
+								<!-- Insert option to interact with the example -->
+								<div class="col-2-1 links">
+									<a href="#" class="button">View in the Wild</a>
+								</div>
+
+								<div class="col-2-1 col-last links">
+									<a href="#" class="button">Play with the Code</a>
+								</div>
+
+								<div class="clearfix"></div>
+
+							</figure>
+
+						
+
+					</div>
+					<!-- End Pattern 1: Scale -->
+
+
+					<!-- Start Pattern 2: Stack -->
+					<div class="pattern">
+
+						
+							<!-- Insert pattern images -->
+							<figure>
+
+								<h3>Stack:</h3> 
+
+								<p>On Mobile devices multiple columns can stack one on top of another in order to provide a more streamlined, one-column view.</p>
+
+
+								<img src="images/responsive_patterns/stack.jpg" />
+
+								<!-- Insert option to interact with the example -->
+								<div class="col-2-1 links">
+									<a href="#" class="button">View in the Wild</a>
+								</div>
+
+								<div class="col-2-1 col-last links">
+									<a href="#" class="button">Play with the Code</a>
+								</div>
+
+								<div class="clearfix"></div>
+
+							</figure>
+
+
+					</div>
+					<!-- End Pattern 2: Stack -->
+
+
+					<!-- Start Pattern 3: Switch -->
+					<div class="pattern">
+
+							<!-- Insert pattern images -->
+							<figure>
+
+								<h3>Switch:</h3> 
+
+								<p>In certain situations, designers can override the normal stacking pattern of left column over the right column and switch the layout to display the right column above the left.</p>
+
+								<img src="images/responsive_patterns/switch.jpg" />
+
+								<!-- Insert option to interact with the example -->
+								<div class="col-2-1 links">
+									<a href="#" class="button">View in the Wild</a>
+								</div>
+
+								<div class="col-2-1 col-last links">
+									<a href="#" class="button">Play with the Code</a>
+								</div>
+
+								<div class="clearfix"></div>
+
+							</figure>
+
+					</div>
+					<!-- End Pattern 3: Switch -->
+
+
+					<!-- Start Pattern 4: Hide  -->
+					<div class="pattern">
+
+							<!-- Insert pattern images -->
+							<figure>
+
+								<h3>Hide:</h3> 
+
+								<p>Since the mobile view provides less screenspace than the desktop view, you may want to hide certain items that don&rsquo;t contribute to the meaning of your message. The example below hides navigation items four and five.</p>
+
+								<img src="images/responsive_patterns/hide.jpg" />
+
+								<!-- Insert option to interact with the example -->
+								<div class="col-2-1 links">
+									<a href="#" class="button">View in the Wild</a>
+								</div>
+
+								<div class="col-2-1 col-last links">
+									<a href="#" class="button">Play with the Code</a>
+								</div>
+
+								<div class="clearfix"></div>
+
+							</figure>
+						
+
+					</div>
+					<!-- End Pattern 4: Hide  -->
+
+
+					<!-- Start Pattern 5: Expand  -->
+					<div class="pattern">
+
+							<!-- Insert pattern images -->
+							<figure>
+
+								<h3>Expand:</h3> 
+
+								<p>This is a more advanced technique (based on CSS) that requires coding knowledge. On Mobile devices lenghty text sections can be hidden behind a &ldquo;read more&rdquo; link.</p>
+
+								<img src="images/responsive_patterns/expand.jpg" />
+
+								<!-- Insert option to interact with the example -->
+								<div class="col-2-1 links">
+									<a href="#" class="button">View in the Wild</a>
+								</div>
+
+								<div class="col-2-1 col-last links">
+									<a href="#" class="button">Play with the Code</a>
+								</div>
+
+								<div class="clearfix"></div>
+
+							</figure>
+
+					</div>
+					<!-- End Pattern 5: Expand  -->
+
+					<!-- Start Pattern 6: Image Swap  -->
+					<div class="pattern">
+
+							<!-- Insert pattern images -->
+							<figure>
+
+								<h3>Image Swap:</h3> 
+
+								<p>On Mobile devices a certain width will trigger the default image to be swapped out for a mobile-friendly image. This technique is great for increasing the readability of text in your images.</p>
+
+								<img src="images/responsive_patterns/swap.jpg" />
+
+								<!-- Insert option to interact with the example -->
+								<div class="col-2-1 links">
+									<a href="#" class="button">View in the Wild</a>
+								</div>
+
+								<div class="col-2-1 col-last links">
+									<a href="#" class="button">Play with the Code</a>
+								</div>
+
+								<div class="clearfix"></div>
+
+							</figure>
+
+					</div>
+					<!-- End Pattern 6: Image Swap  -->
+
+					<!-- Start Pattern 7: Image Crop  -->
+					<div class="pattern">
+
+							<!-- Insert pattern images -->
+							<figure>
+
+								<h3>Image Crop:</h3> 
+
+								<p>On Mobile devices the image will be cropped in order to focus in on the main action in the image. Images can be cropped from the center (shown below), left, right, top or bottom.</p>
+
+								<img src="images/responsive_patterns/crop.jpg" />
+
+								<!-- Insert option to interact with the example -->
+								<div class="col-2-1 links">
+									<a href="#" class="button">View in the Wild</a>
+								</div>
+
+								<div class="col-2-1 col-last links">
+									<a href="#" class="button">Play with the Code</a>
+								</div>
+
+								<div class="clearfix"></div>
+
+							</figure>
+
+						
+					</div>
+					<!-- End Pattern 7: Image Crop  -->
+
+				<!-- Start Article: Considerations -->
+				<article >
+
+					<h2>Responsive Email Design Limitations/Considerations</h2>
+
+					<p>It&rsquo;s important to note that at present, Responsive Design techniques are compatible with only some devices or email clients. The most notable exclusions include applications like Outlook, Gmail, and Yahoo.</p>
+
+					<p>Responsive Design also requires a careful evaluation of your content. You&rsquo;ll want to plan for every possible layout scenario to ensure that your content displays correctly on all devices and email clients.</p>
+
+				</article>
+				<!-- End Article: Considerations -->
+
+					<!-- Insert responsive support table or graphic? -->
+
+			</section>
+			<!-- End Section: Responsive Design -->
+
+
+			<!-- Start Section: Conclusion -->
+			<section id="conclusion">
+
+				<!-- Start Article: Conclusion Text -->
+				<article>
+
+					<h1>Final Email Marketing Takeaway</h1>
+
+					<p>Acknowledging that mobile is now AS important as PCs for email viewing, Matt Byrd of Litmus, in his September 2014 keynote address to the Real Magnet user conference, advocated taking an &ldquo;Any Inbox, Any Device&rdquo; email marketing strategy. This means truly understanding the viewing behavior of recipients, employing better design practices like Mobile&ndash;Aware and Responsive Design, and taking fuller advantage of non&ndash;design capabilities such as the use of Pre&ndash;header Text. While some organizations may not have the resources to exploit the full capabilities of Responsive Design, you&ldquo;re like to have (or should acquire) design resources to execute on a Mobile&ndash;Aware approach. As competition for inbox attention intensifies and becomes fiercer, providing a positive, no&ndash;friction experience to mobile viewers is no longer an option. It&rsquo;s a requirement.</p>
+
+				</article>
+				<!-- End Article: Conclusion Text -->
+
+				<!-- Start: div .Contact_EC -->
+				<div class="Contact_EC">
+
+					<!-- Start: Elise Contact Aside -->
+					<aside class="col-2-1">
+
+						<figure>
+
+							<h1>Elise Carey</h1>
+
+							<!-- Insert Elise Photo -->
+							<img src="images/ecarey.png" class="ec_img" />
+
+							<!-- Start: div .links -->
+							<div class="links">
+
+								<a href="www.elisecarey.com" class="button">Portfolio</a>
+								<a href="https://www.linkedin.com/in/elisecarey" class="button">LinkedIn</a>
+
+							</div>
+							<!-- End: div .links -->
+
+						</figure>
+
+						
+					</aside>
+					<!-- End: Elise Contact Aside -->
+
+
+					<!-- Start: Author Info -->
+					<article class="col-2-1 col-last">
+
+						<p>My name is Elise Carey (Ann-Elise, if we&rsquo;re being official), and I&rsquo;m a creative professional focused on user-centered design.</p>
+
+						<p>As an Email and Multimedia Designer at Real Magnet, I consult with companies, associations, and non&ndash;profits of all shapes and sizes to improve messaging strategy by:</p>
+
+						<ul>
+							<li>Identifying long and short-term goals;</li>
+							<li>Discussing content shape and form;</li>
+							<li>Interviewing users to identify workflow processes and preferences;</li>
+							<li>Designing eye-catching and effective information;
+							Testing template functionality and message deliverability exhaustively.</li>
+						</ul>
+
+					</article>
+					<!-- End: Author Info -->
+
+					<div class="clearfix"></div>
+
+				</div>
+				<!-- End: div .Contact_EC -->
+
+				<div class="Contact_RM">
+
+					<aside class="col-2-1">
+
+						<figure>
+
+							<h1>Real Magnet</h1>
+
+							<img src="images/logo2015.png" class="rm_logo" />
+
+							<!-- Start: div .links -->
+							<div class="links">
+
+								<a href="http://www.realmagnet.com" class="button">www.realmagnet.com</a>
+
+							</div>
+							<!-- End: div .links -->
+
+						</figure>
+
+					</aside>
+
+					<!-- Start: Company Info -->
+					<article class="col-2-1 col-last">
+
+						<!-- Insert RM logo -->
+
+						<p>Founded in 2000, Real Magnet is a leading Email Marketing and Marketing Automation service provider. Its SaaS&ndash;application fully integrates email, social, and mobile messaging with marketing automation, event registration and survey capabilities &mdash; all in a single, comprehensive digital marketing platform. Real Magnet is a privately held company based in Bethesda, MD with over 1000 customers worldwide, including NASDAQ, the National Association of Home Builders, Viacom (MTV/BET Networks), Accor Hotels, the American Hospital Association and ComScore.</p>
+
+						
+
+						<p>Learn more about the Real Magnet digital marketing application by calling <a href="tel:240-743-2941">240-743-2941</a> or email <a href="mailto:contact@realmagnet.com">contact@realmagnet.com</a>.</p>
+
+
+					</article>
+					<!-- End: Company Info -->
+
+					<div class="clearfix"></div>
+
+				</div>
+
+			</section>
+			<!-- End Section: Conclusion -->
+
+		<!-- End Main Content -->
+
+		</div>
+		<!-- End div .container -->
+
+	</div>
+	<!-- End Page #Wrapper -->
+
+	<!-- Include JavaScript -->
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/jquery.event.move.js" type="text/javascript"></script>
+	<script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
+	<script src="js/Chart.Core.js"></script>
+		<script src="js/Chart.Doughnut.js"></script>
+		<script src="js/Chart.Line.js"></script>
+		<script src="js/legend.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+	</body>
+</html>
